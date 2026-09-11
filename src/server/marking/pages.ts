@@ -15,9 +15,15 @@ export async function loadPageImages(
 }
 
 /** Only the images with numbered lines are read by the model; the clean ones are for display. */
-export async function loadAnswerPages(
-  pages: { index: number; annotatedPathname: string; width: number; height: number; lines: unknown }[]
-): Promise<AnswerPage[]> {
+export type StoredAnswerPage = {
+  index: number;
+  annotatedPathname: string;
+  width: number;
+  height: number;
+  lines: unknown;
+};
+
+export async function loadAnswerPages(pages: StoredAnswerPage[]): Promise<AnswerPage[]> {
   return Promise.all(
     pages.map(async (p) => ({
       index: p.index,

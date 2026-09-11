@@ -1,7 +1,7 @@
 import { FatalError } from "workflow";
 import { connectDB } from "@/server/db/connect";
 import { Classroom, Submission, Test } from "@/server/db/models";
-import { loadAnswerPages } from "@/server/marking/pages";
+import { loadAnswerPages, type StoredAnswerPage } from "@/server/marking/pages";
 import { setSubmissionProgress } from "@/server/marking/progress";
 import { withCallCount } from "@/server/marking/calls";
 import { extractAnswers } from "@/lib/pipeline/answers";
@@ -35,7 +35,8 @@ export async function readAnswersStep(submissionId: string): Promise<number> {
   await sub.save();
 
   await setSubmissionProgress(submissionId, "Loading the answer sheet", 0.04, true);
-  const pages = await loadAnswerPages(sub.pages);
+  // The schema adds annotatedPathname and lines to a cloned page schema, which Mongoose types cannot see.
+  const pages = await loadAnswerPages(sub.pages as unknown as StoredAnswerPage[]);
 
   await setSubmissionProgress(submissionId, "Reading the handwriting", 0.1, true);
   const answers = await withCallCount(`mark ${submissionId}: read`, () =>
