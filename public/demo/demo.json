@@ -1,0 +1,748 @@
+{
+ "version": 1,
+ "builtAt": "2026-09-11T00:00:00.000Z",
+ "elapsedMs": 0,
+ "timeline": [
+  {
+   "label": "Preparing files",
+   "value": 0.0,
+   "at": 0
+  },
+  {
+   "label": "Rendering the question paper",
+   "value": 0.01,
+   "at": 400
+  },
+  {
+   "label": "Rendering the answer sheet",
+   "value": 0.02,
+   "at": 900
+  },
+  {
+   "label": "Finding lines of handwriting",
+   "value": 0.03,
+   "at": 1500
+  },
+  {
+   "label": "Reading the question paper",
+   "value": 0.06,
+   "at": 2600
+  },
+  {
+   "label": "Found 14 questions. Reading the answer sheet",
+   "value": 0.22,
+   "at": 6000
+  },
+  {
+   "label": "Reading the answer sheet (page 2 of 4)",
+   "value": 0.36,
+   "at": 14000
+  },
+  {
+   "label": "Reading the answer sheet (page 4 of 4)",
+   "value": 0.5,
+   "at": 22000
+  },
+  {
+   "label": "Matching answers to questions",
+   "value": 0.52,
+   "at": 23000
+  },
+  {
+   "label": "Reading the rubric",
+   "value": 0.56,
+   "at": 25000
+  },
+  {
+   "label": "Marking 11 answers",
+   "value": 0.6,
+   "at": 30000
+  },
+  {
+   "label": "Marking answers (4 of 11)",
+   "value": 0.72,
+   "at": 34000
+  },
+  {
+   "label": "Marking answers (8 of 11)",
+   "value": 0.86,
+   "at": 38000
+  },
+  {
+   "label": "Marking answers (11 of 11)",
+   "value": 0.98,
+   "at": 42000
+  }
+ ],
+ "result": {
+  "jobId": "demo",
+  "questions": [
+   {
+    "number": "1",
+    "display": "1",
+    "printedOrder": 0,
+    "text": "Which blood vessel carries blood away from the heart?",
+    "maxMarks": 2,
+    "parent": null,
+    "group": null,
+    "chooseCount": null
+   },
+   {
+    "number": "2",
+    "display": "2",
+    "printedOrder": 1,
+    "text": "Which of the following organelles is primarily involved in photosynthesis?",
+    "maxMarks": 2,
+    "parent": null,
+    "group": null,
+    "chooseCount": null
+   },
+   {
+    "number": "3",
+    "display": "3",
+    "printedOrder": 2,
+    "text": "Explain the role of chloroplasts in photosynthesis, naming the main pigments involved and briefly outlining the two major stages of the process.",
+    "maxMarks": 2,
+    "parent": null,
+    "group": null,
+    "chooseCount": null
+   },
+   {
+    "number": "4",
+    "display": "4",
+    "printedOrder": 3,
+    "text": "Describe the flow of blood through the human heart, starting from the right atrium and ending at the aorta; include the names of valves crossed.",
+    "maxMarks": 2,
+    "parent": null,
+    "group": null,
+    "chooseCount": null
+   },
+   {
+    "number": "5",
+    "display": "5",
+    "printedOrder": 4,
+    "text": "Draw a labelled diagram of an alveolus showing capillaries and air space (label alveolar sac, capillary, and direction of gas exchange).",
+    "maxMarks": 2,
+    "parent": null,
+    "group": null,
+    "chooseCount": null
+   },
+   {
+    "number": "6",
+    "display": "6",
+    "printedOrder": 5,
+    "text": "Draw a neat labelled diagram of the human digestive system (stomach, small intestine, large intestine, liver, pancreas) and label the site where most absorption occurs.",
+    "maxMarks": 5,
+    "parent": null,
+    "group": null,
+    "chooseCount": null
+   },
+   {
+    "number": "7",
+    "display": "7",
+    "printedOrder": 6,
+    "text": "Draw and label a nephron (Bowman's capsule, glomerulus, proximal tubule, loop of Henle, collecting duct).",
+    "maxMarks": 5,
+    "parent": null,
+    "group": null,
+    "chooseCount": null
+   },
+   {
+    "number": "8",
+    "display": "8",
+    "printedOrder": 7,
+    "text": "Explain the structural differences between palisade mesophyll and spongy mesophyll and state how each structure aids its function in the leaf.",
+    "maxMarks": 5,
+    "parent": null,
+    "group": null,
+    "chooseCount": null
+   },
+   {
+    "number": "9",
+    "display": "9",
+    "printedOrder": 8,
+    "text": "Describe the process of transpiration in plants in two to three sentences and name two environmental factors that increase its rate.",
+    "maxMarks": 5,
+    "parent": null,
+    "group": null,
+    "chooseCount": null
+   },
+   {
+    "number": "10",
+    "display": "10",
+    "printedOrder": 9,
+    "text": "Explain how the structure of xylem vessels facilitates water transport in plants (mention one structural feature and its role).",
+    "maxMarks": 5,
+    "parent": null,
+    "group": null,
+    "chooseCount": null
+   },
+   {
+    "number": "11a",
+    "display": "11 (a)",
+    "printedOrder": 10,
+    "text": "A diagram shows two potted plants: Plant A in bright light with broad green leaves, Plant B kept in dim light with pale, elongated leaves. State which plant is healthier and give one visible reason.",
+    "maxMarks": 2,
+    "parent": "11",
+    "group": null,
+    "chooseCount": null
+   },
+   {
+    "number": "11b",
+    "display": "11 (b)",
+    "printedOrder": 11,
+    "text": "Suggest one practical measure to help Plant B recover.",
+    "maxMarks": 3,
+    "parent": "11",
+    "group": null,
+    "chooseCount": null
+   },
+   {
+    "number": "12",
+    "display": "12",
+    "printedOrder": 12,
+    "text": "A resting person has a tidal volume (air per breath) of 0.5 L and breathes 12 times per minute. Calculate the minute ventilation.",
+    "maxMarks": 5,
+    "parent": null,
+    "group": null,
+    "chooseCount": null
+   },
+   {
+    "number": "13",
+    "display": "13",
+    "printedOrder": 13,
+    "text": "If dead space is 0.15 L per breath, calculate the alveolar ventilation per minute. Show working.",
+    "maxMarks": 5,
+    "parent": null,
+    "group": null,
+    "chooseCount": null
+   }
+  ],
+  "answers": [
+   {
+    "id": "a1",
+    "writtenLabel": "1",
+    "text": "Arteries carry blood away from the heart. The largest artery is the aorta, which carries oxygenated blood to the whole body.",
+    "regions": [
+     {
+      "page": 0,
+      "x": 0.051111111111111114,
+      "y": 0.06210691823899371,
+      "w": 0.6055555555555555,
+      "h": 0.10377358490566038
+     }
+    ],
+    "pages": [
+     0
+    ],
+    "hasDiagram": false,
+    "diagramLabels": []
+   },
+   {
+    "id": "a2",
+    "writtenLabel": "3",
+    "text": "Chloroplasts contain the green pigment chlorophyll a and chlorophyll b, which absorb light energy. The two stages are the light reaction and the dark reaction.",
+    "regions": [
+     {
+      "page": 0,
+      "x": 0.051111111111111114,
+      "y": 0.18160377358490565,
+      "w": 0.6,
+      "h": 0.10770440251572327
+     }
+    ],
+    "pages": [
+     0
+    ],
+    "hasDiagram": false,
+    "diagramLabels": []
+   },
+   {
+    "id": "a3",
+    "writtenLabel": "2",
+    "text": "The chloroplast is the organelle primarily involved in photosynthesis.",
+    "regions": [
+     {
+      "page": 0,
+      "x": 0.051111111111111114,
+      "y": 0.29874213836477986,
+      "w": 0.5955555555555555,
+      "h": 0.07783018867924528
+     }
+    ],
+    "pages": [
+     0
+    ],
+    "hasDiagram": false,
+    "diagramLabels": []
+   },
+   {
+    "id": "a4",
+    "writtenLabel": "5",
+    "text": "The alveolus is a small air sac surrounded by a network of blood capillaries. Oxygen diffuses from the alveolar air space into the capillary and carbon dioxide diffuses out in the opposite direction.",
+    "regions": [
+     {
+      "page": 1,
+      "x": 0.051111111111111114,
+      "y": 0.06210691823899371,
+      "w": 0.61,
+      "h": 0.13836477987421383
+     }
+    ],
+    "pages": [
+     1
+    ],
+    "hasDiagram": false,
+    "diagramLabels": []
+   },
+   {
+    "id": "a5",
+    "writtenLabel": "7",
+    "text": "The nephron begins with the Bowman's capsule which encloses the glomerulus. Filtrate then passes into the proximal tubule, then the loop of Henle, and finally into the collecting duct.",
+    "regions": [
+     {
+      "page": 1,
+      "x": 0.051111111111111114,
+      "y": 0.21147798742138366,
+      "w": 0.6044444444444445,
+      "h": 0.13286163522012578
+     }
+    ],
+    "pages": [
+     1
+    ],
+    "hasDiagram": false,
+    "diagramLabels": []
+   },
+   {
+    "id": "a6",
+    "writtenLabel": "6",
+    "text": "The human digestive system starts at the mouth and continues through the oesophagus into the stomach, where food is churned with gastric juice. The liver secretes bile and the pancreas secretes pancreatic juice, both of which empty into the small intestine. Most of the absorption of digested food takes place in the small intestine, mainly in the ileum, because it has villi that increase the surface area.",
+    "regions": [
+     {
+      "page": 1,
+      "x": 0.051111111111111114,
+      "y": 0.35927672955974843,
+      "w": 0.5922222222222222,
+      "h": 0.13757861635220126
+     },
+     {
+      "page": 2,
+      "x": 0.15333333333333332,
+      "y": 0.08333333333333333,
+      "w": 0.5055555555555555,
+      "h": 0.11320754716981132
+     }
+    ],
+    "pages": [
+     1,
+     2
+    ],
+    "hasDiagram": false,
+    "diagramLabels": []
+   },
+   {
+    "id": "a7",
+    "writtenLabel": "9",
+    "text": "Transpiration is the loss of water vapour from the aerial parts of a plant, mostly through the stomata of leaves. Two factors that increase the rate are high temperature and increased wind speed.",
+    "regions": [
+     {
+      "page": 2,
+      "x": 0.051111111111111114,
+      "y": 0.21147798742138366,
+      "w": 0.6311111111111111,
+      "h": 0.13286163522012578
+     }
+    ],
+    "pages": [
+     2
+    ],
+    "hasDiagram": false,
+    "diagramLabels": []
+   },
+   {
+    "id": "a8",
+    "writtenLabel": "8",
+    "text": "Palisade mesophyll cells are long and column shaped and are packed tightly with chloroplasts, so they absorb the most light. Spongy mesophyll cells are loosely packed with large air spaces between them for gas exchange.",
+    "regions": [
+     {
+      "page": 2,
+      "x": 0.051111111111111114,
+      "y": 0.35927672955974843,
+      "w": 0.6244444444444445,
+      "h": 0.13836477987421383
+     }
+    ],
+    "pages": [
+     2
+    ],
+    "hasDiagram": false,
+    "diagramLabels": []
+   },
+   {
+    "id": "a9",
+    "writtenLabel": "11b",
+    "text": "Move the pot to a south facing window so that it gets more sunlight every day.",
+    "regions": [
+     {
+      "page": 3,
+      "x": 0.051111111111111114,
+      "y": 0.060534591194968554,
+      "w": 0.5911111111111111,
+      "h": 0.08018867924528301
+     }
+    ],
+    "pages": [
+     3
+    ],
+    "hasDiagram": false,
+    "diagramLabels": []
+   },
+   {
+    "id": "a10",
+    "writtenLabel": "12",
+    "text": "Minute ventilation = tidal volume x breathing rate = 0.5 x 12 = 6 L per minute.",
+    "regions": [
+     {
+      "page": 3,
+      "x": 0.051111111111111114,
+      "y": 0.1509433962264151,
+      "w": 0.5722222222222222,
+      "h": 0.1029874213836478
+     }
+    ],
+    "pages": [
+     3
+    ],
+    "hasDiagram": false,
+    "diagramLabels": []
+   },
+   {
+    "id": "a11",
+    "writtenLabel": "13",
+    "text": "Alveolar ventilation = (tidal volume - dead space) x rate = (0.5 - 0.15) x 12 = 0.35 x 12 = 4.2 L per minute.",
+    "regions": [
+     {
+      "page": 3,
+      "x": 0.051111111111111114,
+      "y": 0.26808176100628933,
+      "w": 0.6277777777777778,
+      "h": 0.13443396226415094
+     }
+    ],
+    "pages": [
+     3
+    ],
+    "hasDiagram": false,
+    "diagramLabels": []
+   },
+   {
+    "id": "a12",
+    "writtenLabel": "15",
+    "text": "The mitochondria is the powerhouse of the cell and carries out aerobic respiration.",
+    "regions": [
+     {
+      "page": 3,
+      "x": 0.051111111111111114,
+      "y": 0.41745283018867924,
+      "w": 0.5722222222222222,
+      "h": 0.07232704402515723
+     }
+    ],
+    "pages": [
+     3
+    ],
+    "hasDiagram": false,
+    "diagramLabels": []
+   }
+  ],
+  "mappings": [
+   {
+    "questionNumber": "1",
+    "answerId": "a1",
+    "confidence": 1,
+    "source": "label"
+   },
+   {
+    "questionNumber": "2",
+    "answerId": "a3",
+    "confidence": 1,
+    "source": "label"
+   },
+   {
+    "questionNumber": "3",
+    "answerId": "a2",
+    "confidence": 1,
+    "source": "label"
+   },
+   {
+    "questionNumber": "4",
+    "answerId": null,
+    "confidence": 0,
+    "source": null
+   },
+   {
+    "questionNumber": "5",
+    "answerId": "a4",
+    "confidence": 1,
+    "source": "label"
+   },
+   {
+    "questionNumber": "6",
+    "answerId": "a6",
+    "confidence": 1,
+    "source": "label"
+   },
+   {
+    "questionNumber": "7",
+    "answerId": "a5",
+    "confidence": 1,
+    "source": "label"
+   },
+   {
+    "questionNumber": "8",
+    "answerId": "a8",
+    "confidence": 1,
+    "source": "label"
+   },
+   {
+    "questionNumber": "9",
+    "answerId": "a7",
+    "confidence": 1,
+    "source": "label"
+   },
+   {
+    "questionNumber": "10",
+    "answerId": null,
+    "confidence": 0,
+    "source": null
+   },
+   {
+    "questionNumber": "11a",
+    "answerId": null,
+    "confidence": 0,
+    "source": null
+   },
+   {
+    "questionNumber": "11b",
+    "answerId": "a9",
+    "confidence": 1,
+    "source": "label"
+   },
+   {
+    "questionNumber": "12",
+    "answerId": "a10",
+    "confidence": 1,
+    "source": "label"
+   },
+   {
+    "questionNumber": "13",
+    "answerId": "a11",
+    "confidence": 1,
+    "source": "label"
+   }
+  ],
+  "grades": [
+   {
+    "questionNumber": "1",
+    "score": 2,
+    "maxMarks": 2,
+    "verdict": "correct",
+    "feedback": "A clear, direct answer that goes straight to arteries and then names the aorta as the largest one.",
+    "counted": true,
+    "needsReview": false
+   },
+   {
+    "questionNumber": "2",
+    "score": 2,
+    "maxMarks": 2,
+    "verdict": "correct",
+    "feedback": "Answered in a single, precise sentence that names the chloroplast.",
+    "counted": true,
+    "needsReview": false
+   },
+   {
+    "questionNumber": "3",
+    "score": 2,
+    "maxMarks": 2,
+    "verdict": "correct",
+    "feedback": "Names both chlorophyll pigments and both stages in a compact answer. Saying what each stage produces would round it out.",
+    "counted": true,
+    "needsReview": false
+   },
+   {
+    "questionNumber": "4",
+    "score": 0,
+    "maxMarks": 2,
+    "verdict": "unattempted",
+    "feedback": "Not attempted.",
+    "counted": true,
+    "needsReview": false
+   },
+   {
+    "questionNumber": "5",
+    "score": 0.5,
+    "maxMarks": 2,
+    "verdict": "partial",
+    "feedback": "A clear written description of the alveolus and gas exchange. Drawing and labelling the alveolus, as the question asks, would complete it.",
+    "counted": true,
+    "needsReview": true,
+    "reviewNote": "Marked on the written answer only, as no drawing was found for a question that asks for one."
+   },
+   {
+    "questionNumber": "6",
+    "score": 1.5,
+    "maxMarks": 5,
+    "verdict": "partial",
+    "feedback": "Follows food from the mouth to the small intestine in a logical order and explains absorption by villi. A labelled diagram, including the large intestine, would complete it.",
+    "counted": true,
+    "needsReview": true,
+    "reviewNote": "Marked on the written answer only, as no drawing was found for a question that asks for one."
+   },
+   {
+    "questionNumber": "7",
+    "score": 1.5,
+    "maxMarks": 5,
+    "verdict": "partial",
+    "feedback": "Traces the filtrate through every part of the nephron in the right order. A labelled drawing of the nephron is what the question asks for.",
+    "counted": true,
+    "needsReview": true,
+    "reviewNote": "Marked on the written answer only, as no drawing was found for a question that asks for one."
+   },
+   {
+    "questionNumber": "8",
+    "score": 5,
+    "maxMarks": 5,
+    "verdict": "correct",
+    "feedback": "Compares the two layers side by side and links each structure to its job, which is exactly what was asked.",
+    "counted": true,
+    "needsReview": false
+   },
+   {
+    "questionNumber": "9",
+    "score": 5,
+    "maxMarks": 5,
+    "verdict": "correct",
+    "feedback": "A precise definition followed by two correct factors, set out in the order the question asks.",
+    "counted": true,
+    "needsReview": false
+   },
+   {
+    "questionNumber": "10",
+    "score": 0,
+    "maxMarks": 5,
+    "verdict": "unattempted",
+    "feedback": "Not attempted.",
+    "counted": true,
+    "needsReview": false
+   },
+   {
+    "questionNumber": "11a",
+    "score": 0,
+    "maxMarks": 2,
+    "verdict": "unattempted",
+    "feedback": "Not attempted.",
+    "counted": true,
+    "needsReview": false
+   },
+   {
+    "questionNumber": "11b",
+    "score": 2,
+    "maxMarks": 3,
+    "verdict": "partial",
+    "feedback": "A practical, specific suggestion. Adding why more light helps, for photosynthesis, would round it out.",
+    "counted": true,
+    "needsReview": false
+   },
+   {
+    "questionNumber": "12",
+    "score": 5,
+    "maxMarks": 5,
+    "verdict": "correct",
+    "feedback": "The working is set out step by step: formula, substitution and the answer with its unit.",
+    "counted": true,
+    "needsReview": false
+   },
+   {
+    "questionNumber": "13",
+    "score": 5,
+    "maxMarks": 5,
+    "verdict": "correct",
+    "feedback": "Formula, substitution and answer are all shown, with the unit, as the question asks.",
+    "counted": true,
+    "needsReview": false
+   }
+  ],
+  "summary": {
+   "questionCount": 14,
+   "attempted": 11,
+   "unattempted": 3,
+   "unmatchedAnswers": 1,
+   "score": 31.5,
+   "maxScore": 50,
+   "overallFeedback": "Strongest on questions 1, 2, 3, 8 and 3 more. Worth another look: questions 5, 6 and 7. Questions 4, 10 and 11 (a) were not attempted."
+  },
+  "answerPageSizes": [
+   {
+    "width": 900,
+    "height": 1272
+   },
+   {
+    "width": 900,
+    "height": 1272
+   },
+   {
+    "width": 900,
+    "height": 1272
+   },
+   {
+    "width": 900,
+    "height": 1272
+   }
+  ],
+  "elapsedMs": 0,
+  "warnings": []
+ },
+ "pages": [
+  {
+   "dataUrl": "/demo/page-1.jpg",
+   "width": 900,
+   "height": 1272
+  },
+  {
+   "dataUrl": "/demo/page-2.jpg",
+   "width": 900,
+   "height": 1272
+  },
+  {
+   "dataUrl": "/demo/page-3.jpg",
+   "width": 900,
+   "height": 1272
+  },
+  {
+   "dataUrl": "/demo/page-4.jpg",
+   "width": 900,
+   "height": 1272
+  }
+ ],
+ "files": {
+  "question": {
+   "url": "/demo/question-paper.pdf",
+   "name": "question-paper.pdf",
+   "size": 44982,
+   "pages": 1
+  },
+  "answer": {
+   "url": "/demo/answer-sheet.pdf",
+   "name": "answer-sheet.pdf",
+   "size": 384295,
+   "pages": 4
+  },
+  "rubric": {
+   "url": "/demo/rubric.pdf",
+   "name": "rubric.pdf",
+   "size": 5751,
+   "pages": 2
+  }
+ }
+}
